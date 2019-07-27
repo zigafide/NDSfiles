@@ -1,0 +1,81 @@
+{
+    "pools": [
+        {
+            "rolls": 1,
+            "entries": [
+                {
+                    "type": "item",
+                    "weight": 6,
+                    "name": "minecraft:ender_pearl",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 5
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 3,
+                    "name": "minecraft:elytra",
+                    "quality": 1
+                },
+                {
+                    "type": "item",
+                    "weight": 4,
+                    "name": "minecraft:firework_rocket",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_count",
+                            "count": {
+                                "min": 1,
+                                "max": 12
+                            }
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 1,
+                    "name": "minecraft:diamond_boots",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{Enchantments:[{id:\"minecraft:frost_walker\",lvl:3s}]}"
+                        }
+                    ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:splash_potion",
+                    "quality": 1,
+                  "functions": [
+                    {
+                      "function": "set_nbt",
+                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jump Boost\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},CustomPotionEffects:[{Id:8b,Amplifier:5b,Duration:1200}],Potion:\"minecraft:water\"}"
+                    }
+                  ]
+                },
+                {
+                    "type": "item",
+                    "weight": 2,
+                    "name": "minecraft:wooden_shovel",
+                    "quality": 1,
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Cannon (SINGLE USE)\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Attack or click on block to use\\\"}\",\"{\\\"text\\\":\\\"player_cannon\\\"}\"]}}"
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
