@@ -56,12 +56,12 @@
                     "weight": 2,
                     "name": "minecraft:splash_potion",
                     "quality": 1,
-                  "functions": [
-                    {
-                      "function": "set_nbt",
-                      "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jump Boost\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},CustomPotionEffects:[{Id:8b,Amplifier:5b,Duration:1200}],Potion:\"minecraft:water\"}"
-                    }
-                  ]
+                    "functions": [
+                        {
+                            "function": "set_nbt",
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Jump Boost\\\",\\\"color\\\":\\\"dark_purple\\\",\\\"bold\\\":true,\\\"italic\\\":false}\"},CustomPotionEffects:[{Id:8b,Amplifier:5b,Duration:1200}],Potion:\"minecraft:water\"}"
+                        }
+                    ]
                 },
                 {
                     "type": "item",
@@ -71,10 +71,16 @@
                     "functions": [
                         {
                             "function": "set_nbt",
-                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Cannon (SINGLE USE)\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Attack or click on block to use\\\"}\",\"{\\\"text\\\":\\\"player_cannon\\\"}\"]}}"
+                            "tag": "{display:{Name:\"{\\\"text\\\":\\\"Player Cannon\\\",\\\"color\\\":\\\"gold\\\",\\\"italic\\\":false}\",Lore:[\"{\\\"text\\\":\\\"Attack or click on block to use\\\"}\",\"{\\\"text\\\":\\\"player_cannon\\\"}\"]}}"
                         }
                     ]
-                }
+                },
+              {
+                "type": "item",
+                "weight": 1,
+                "name": "minecraft:totem_of_undying",
+                "quality": 1
+              }
             ]
         }
     ]
