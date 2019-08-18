@@ -1,11 +1,11 @@
 maps: beach cabin candyland castle england forest house icespike junglehousebruh loungtown
   market meteorfalls modernhouse ndcamp ndcarni ndend ndfactory ndsnow ndvillage nether
   park pirates racetrack river school temple woolworld oasis waterfalls revampedhouse
-  acrefortress fort fourtowers maze amusementpark
+  acrefortress fort fourtowers maze amusementpark mountainmonument
 maps-names: Beach-Cabin-Candy Land-Castle-England-Forest-House-Icespike-Jungle House-Loungtown-Market-Meteor
   Falls-Modern House-Camp-Carnival-The End-Factory-Snow-Village-Nether-Park-Pirates-Race
   Track-River-School-Temple-Wool world-Oasis-Waterfalls-Revamped House-Acre Fortress-Fort-Four
-  Towers-Maze-Amusement Park
+  Towers-Maze-Amusement Park-Mountain Monument
 blacklisted-disasters: 'null'
 testing:
   locked-disasters: flood
